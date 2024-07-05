@@ -1,0 +1,151 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.container 
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #b0adad; */
+}
+
+.section-1 
+{
+    margin-top: 30px;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-section-1
+{
+    width: 50%;
+    height: 70%;
+    border-radius: 7%;
+}
+
+.heading-section-1 
+{
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.para-section-1 
+{
+    margin-bottom: 30px;
+}
+
+.btn-section-1 
+{
+    display: none;
+    border: 0;
+    background-color: #316a44;
+    /* margin-left: 30px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25%;
+
+}
+
+.shape 
+{
+    background-color: rgb(78, 131, 61);
+    display: inline-block;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.shape:hover
+{
+    background-color: #398452;
+}
+.design-section-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.svg-section-2{
+    width: 50px;
+    height: 50px;
+}
+.greenpage{
+    margin-top: 50px;
+    background-color: #398452;
+}
+.section-2{
+    margin-bottom: 70px;
+}
+.green{
+    display:grid ;
+    grid-template-columns: 1fr 2fr;
+    background-color: #c5f1ee;
+    border-radius: 50px;
+}
+.gpt h4{
+    align-content: center;
+}
+.gp img{
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 50px;
+}
+.gpt{
+    align-self: center;
+    font-size: larger;
+}
+#id1{
+    width: 50px;
+}
+.products{
+    font-size: x-large;
+    margin-top: 20px;
+}
+.svg {
+    width: 15px;
+    height: 15px;
+    color: #316a44;
+  }
+  
+  .f1 {
+    display: flex;
+    gap: 5px;
+  }
+  .f0 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 20px;
+  }
+  .c0 {
+  
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 10px 10px 4px rgb(39, 36, 36);
+  }
+  .b0 {
+    background-color: rgb(85, 232, 74);
+    color: black;
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    border-radius: 10px;
+  }
+  .b0:hover{
+    background-color: rgb(209, 96, 209);
+    
+  }
+  #p0 {
+    margin-top: 15px;
+  }
+  .l1{
+    font-weight: bold;
+  }
